@@ -119,6 +119,23 @@
   <ItemGroup>
     <Content Include="Content\Contact.css" />
     <Content Include="Content\Home.css" />
+    <Content Include="Content\Images\Contact\contact.png" />
+    <Content Include="Content\Images\Contact\Friday Kids Outreach 1.png" />
+    <Content Include="Content\Images\Contact\Group27.png" />
+    <Content Include="Content\Images\Contact\op hours.png" />
+    <Content Include="Content\Images\Contact\site.png" />
+    <Content Include="Content\Images\Contact\Vector36.png" />
+    <Content Include="Content\Images\global\footer-Logo.png" />
+    <Content Include="Content\Images\global\nav-logo-sm.png" />
+    <Content Include="Content\Images\global\nav-logo.png" />
+    <Content Include="Content\Images\home\donate-icon.png" />
+    <Content Include="Content\Images\home\get-involved-icon.png" />
+    <Content Include="Content\Images\home\home-about-img.png" />
+    <Content Include="Content\Images\home\home-hero.png" />
+    <Content Include="Content\Images\home\programmes-icon.png" />
+    <Content Include="Content\Images\Programmes\Christmas Carols at Emmanuel.png" />
+    <Content Include="Content\Images\Programmes\image 20.png" />
+    <Content Include="Content\Images\Programmes\Vector_UpToDate.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -147,6 +164,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Programmes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
