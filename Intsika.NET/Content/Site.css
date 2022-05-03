@@ -1,0 +1,323 @@
+﻿body {
+    padding-top: 50px;
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+a {
+    text-decoration: none !important;
+    color: #1E0F00;
+    cursor: pointer;
+}
+
+    a:hover {
+        color: #381B00;
+        /*transform: scale(1.1)*/
+    }
+
+/*==================================Background Colours============================*/
+.bgDarkTeal {
+    background: #00332E !important;
+}
+
+/*========================================Colours=================================*/
+/*Text*/
+.shadowBrown {
+    color: #1E0F00 !important;
+}
+
+.brown {
+    color: #653910 !important;
+}
+
+.tealDark {
+    color: #00332E !important;
+}
+/*====================================NavBar===================================*/
+.circle-icon {
+    width: 17px;
+    height: 18px;
+    border-radius: 50%;
+    background: #1E0F00 !important;
+}
+
+.nav-item {
+    padding: 0 0.5rem;
+}
+
+.fixed-top {
+    position: absolute !important;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #1E0F00;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+    .navbar .navbar-nav .nav-link:hover {
+        color: #808080;
+    }
+
+.navbar-logo-centered .navbar-nav .nav-link {
+    padding: .5em 1em;
+}
+
+.mainLogo {
+    height: 11.25rem;
+}
+
+
+/*========================================Text================================= */
+.curve-brown {
+    height: 60px;
+    border: solid 5px #653910;
+    border-color: #653910 transparent transparent transparent;
+    border-radius: 60%/60px 60px 0 0;
+}
+
+.curve-teal {
+    height: 60px;
+    border: solid 5px #00CBB5;
+    border-color: #00CBB5 transparent transparent transparent;
+    border-radius: 60%/60px 60px 0 0;
+}
+
+.fontBlack {
+    font-weight: 900;
+}
+
+.main-heading {
+    font-size: 3.5rem !important;
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: bold !important;
+}
+
+.main-subhead {
+    font-size: 2rem !important;
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+.heading {
+    font-size: 1.8rem !important;
+}
+
+.sub-heading-footer {
+    font-size: 1.2rem !important;
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+.sub-heading {
+    font-size: 1.1rem !important;
+}
+
+.base-font {
+    font-size: 1rem !important;
+}
+
+.icon {
+    font-size: 0.6rem !important;
+}
+/*=======================Tablet=====================*/
+@media screen and (max-width: 1280px) {
+    .main-heading {
+        font-size: 2.8rem !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+        font-weight: bold !important;
+    }
+
+    .main-subhead {
+        font-size: 1.5rem !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+    }
+
+    .heading {
+        font-size: 1.5rem !important;
+    }
+
+    .sub-heading-footer {
+        font-size: 0.8rem !important;
+    }
+
+    .sub-heading {
+        font-size: 1rem !important;
+    }
+
+    .base-font {
+        font-size: 0.8rem !important;
+    }
+}
+
+/*=======================Phones=====================*/
+@media screen and (max-width: 768px) {
+    .main-heading {
+        font-size: 1.5rem !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+        font-weight: bold !important;
+    }
+
+    .main-subhead {
+        font-size: 1.1rem !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+    }
+
+    .heading {
+        font-size: 1.1rem !important;
+    }
+
+    .sub-heading-footer {
+        font-size: 0.8rem !important;
+    }
+}
+
+/*====================Small Phones==================*/
+@media screen and (max-width: 411px) {
+    .sub-heading-footer {
+        font-size: 0.5rem !important;
+    }
+}
+
+/*====================XSmall Phones==================*/
+@media screen and (max-width: 280px) {
+    .main-heading {
+        font-size: 1.2rem !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+        font-weight: 900 !important;
+    }
+
+    .main-subhead {
+        font-size: 0.5rem !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+    }
+
+    .sub-heading-footer {
+        font-size: 0.4rem !important;
+    }
+
+    .sub-heading {
+        font-size: 0.65rem !important;
+    }
+
+    .base-font {
+        font-size: 0.5rem !important;
+    }
+}
+
+/*========================================Buttons================================= */
+btn {
+    border-radius: 3px !important;
+}
+
+.btnMain {
+    background: #653910 !important;
+    box-shadow: 8px 8px 16px #03071f61;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+    .btnMain:hover {
+        background: #43260A !important;
+        color: #fff;
+    }
+
+.btnSecondary {
+    background: #FA7921 !important;
+    box-shadow: 8px 8px 16px #0a10364a;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+    .btnSecondary:hover {
+        background: #B95B1B !important;
+        color: #fff !important;
+    }
+
+.btnSuccess {
+    background: #046865 !important;
+    box-shadow: 8px 8px 16px #50060561;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+    .btnSuccess:hover {
+        background: #00332E !important;
+    }
+
+
+p {
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+.noto-sans {
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+.borderBrown {
+    border: 5px solid #653910;
+}
+
+.footerForm {
+    border-radius: 30px 0px 0px 30px;
+}
+
+.inputFields {
+    border: 1px solid #653910 !important;
+    color: #653910 !important;
+}
+
+    .inputFields:focus {
+        color: #1e0f009c;
+        background-color: #fff;
+        border-color: #653910;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem #65391038;
+    }
+
+.footerSiteMap {
+    border-radius: 0px 30px 30px 0px;
+}
+
+.footerSections {
+    height: 18rem;
+}
+
+
+/*=======================================align====================================*/
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.middle-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
