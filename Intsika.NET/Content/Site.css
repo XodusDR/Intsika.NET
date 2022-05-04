@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     font-family: 'Noto Sans JP', sans-serif !important;
 }
 
@@ -27,9 +26,93 @@ a {
         /*transform: scale(1.1)*/
     }
 
+.imgLink {
+    cursor: pointer;
+    transition: transform .5s ease-in-out .05s;
+}
+
+    .imgLink:hover {
+        transform: scale(1.1);
+    }
+
+.brownLink {
+    color: #653910 !important;
+}
+
+    .brownLink:hover {
+        color: #381B00 !important;
+    }
+
+/*==================================Widths============================*/
+.w-5 {
+    width: 5% !important;
+}
+
+/*==================================Scroll Bar============================*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #00332E;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #046865;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #1E0F00;
+    }
+
+
+/*==================================Border Colours============================*/
+.borderBrown {
+    border: 5px solid #653910;
+}
+
+.borderOrange {
+    border: 5px solid #FA7921;
+}
+
+.borderTeal {
+    border: 5px solid #00CBB5;
+}
+
+.borderTealSt {
+    border: 5px solid #046865;
+}
 /*==================================Background Colours============================*/
 .bgDarkTeal {
     background: #00332E !important;
+}
+
+.bgTealSt {
+    background: #046865 !important;
+}
+
+.bgDarkBrown {
+    background: #1E0F00 !important;
+}
+
+.bgBrown {
+    background: #653910 !important;
+}
+
+
+/*======================================Input field=================================*/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #653910 !important;
+    opacity: 0.5 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #653910 !important;
+    opacity: 0.5 !important;
 }
 
 /*========================================Colours=================================*/
@@ -52,6 +135,17 @@ a {
     border-radius: 50%;
     background: #1E0F00 !important;
 }
+
+.navbar-bg {
+    background-color: #00000000;
+}
+
+@media screen and (max-width: 820px) {
+    .navbar-bg {
+        background-color: #ffffffb8;
+    }
+}
+
 
 .nav-item {
     padding: 0 0.5rem;
@@ -81,6 +175,18 @@ a {
 
 
 /*========================================Text================================= */
+.line-orange {
+    border-top: 5px solid #FA7921;
+}
+
+.line-brown {
+    border-top: 5px solid #653910;
+}
+
+.line-teal {
+    border-top: 5px solid #00CBB5;
+}
+
 .curve-brown {
     height: 60px;
     border: solid 5px #653910;
@@ -93,6 +199,18 @@ a {
     border: solid 5px #00CBB5;
     border-color: #00CBB5 transparent transparent transparent;
     border-radius: 60%/60px 60px 0 0;
+}
+
+.curve-orange {
+    height: 60px;
+    border: solid 5px #FA7921;
+    border-color: #FA7921 transparent transparent transparent;
+    border-radius: 60%/60px 60px 0 0;
+}
+
+.clipText {
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 .fontBlack {
@@ -114,8 +232,8 @@ a {
     font-size: 1.8rem !important;
 }
 
-.sub-heading-footer {
-    font-size: 1.2rem !important;
+.sub-heading-main {
+    font-size: 1.5rem !important;
     font-family: 'Noto Sans JP', sans-serif !important;
 }
 
@@ -147,7 +265,7 @@ a {
         font-size: 1.5rem !important;
     }
 
-    .sub-heading-footer {
+    .sub-heading-main {
         font-size: 0.8rem !important;
     }
 
@@ -177,14 +295,14 @@ a {
         font-size: 1.1rem !important;
     }
 
-    .sub-heading-footer {
+    .sub-heading-main {
         font-size: 0.8rem !important;
     }
 }
 
 /*====================Small Phones==================*/
 @media screen and (max-width: 411px) {
-    .sub-heading-footer {
+    .sub-heading-main {
         font-size: 0.5rem !important;
     }
 }
@@ -202,7 +320,7 @@ a {
         font-family: 'Noto Sans JP', sans-serif !important;
     }
 
-    .sub-heading-footer {
+    .sub-heading-main {
         font-size: 0.4rem !important;
     }
 
@@ -218,6 +336,7 @@ a {
 /*========================================Buttons================================= */
 btn {
     border-radius: 3px !important;
+    text-transform: capitalize;
 }
 
 .btnMain {
@@ -226,7 +345,8 @@ btn {
     font-size: 1rem !important;
     font-weight: bold !important;
     color: #fff !important;
-    text-transform: uppercase;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
     .btnMain:hover {
@@ -240,7 +360,8 @@ btn {
     font-size: 1rem !important;
     font-weight: bold !important;
     color: #fff !important;
-    text-transform: uppercase;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
     .btnSecondary:hover {
@@ -254,7 +375,8 @@ btn {
     font-size: 1rem !important;
     font-weight: bold !important;
     color: #fff !important;
-    text-transform: uppercase;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
     .btnSuccess:hover {
@@ -268,10 +390,6 @@ p {
 
 .noto-sans {
     font-family: 'Noto Sans JP', sans-serif !important;
-}
-
-.borderBrown {
-    border: 5px solid #653910;
 }
 
 .footerForm {

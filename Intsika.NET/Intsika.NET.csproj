@@ -108,10 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\BundleConfig2.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\DonationController.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProgrammesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -120,8 +122,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\About.css" />
     <Content Include="Content\Contact.css" />
     <Content Include="Content\Home.css" />
+    <Content Include="Content\Images\about\about-hero.png" />
+    <Content Include="Content\Images\about\about-section.png" />
+    <Content Include="Content\Images\about\bm-1.png" />
+    <Content Include="Content\Images\about\bm-2.png" />
+    <Content Include="Content\Images\about\bm-3.png" />
+    <Content Include="Content\Images\about\bm-4.png" />
+    <Content Include="Content\Images\about\bm-5.png" />
+    <Content Include="Content\Images\about\bm-6.png" />
+    <Content Include="Content\Images\about\bm-7.png" />
+    <Content Include="Content\Images\about\bm-8.png" />
+    <Content Include="Content\Images\about\bm-9.png" />
+    <Content Include="Content\Images\about\header-line.svg" />
+    <Content Include="Content\Images\about\mission.png" />
+    <Content Include="Content\Images\about\v-acc.png" />
+    <Content Include="Content\Images\about\v-cross.png" />
+    <Content Include="Content\Images\about\v-ethical.png" />
+    <Content Include="Content\Images\about\v-int.png" />
+    <Content Include="Content\Images\about\vision.png" />
     <Content Include="Content\Images\Contact\contact.png" />
     <Content Include="Content\Images\Contact\Friday Kids Outreach 1.png" />
     <Content Include="Content\Images\Contact\Group27.png" />
@@ -129,14 +150,28 @@
     <Content Include="Content\Images\Contact\site.png" />
     <Content Include="Content\Images\Contact\Vector36.png" />
     <Content Include="Content\Images\Donation\Distributing masks and sanitising at our Friday Kids Outreach 1.png" />
+    <Content Include="Content\Images\global\email.png" />
+    <Content Include="Content\Images\global\facebook.png" />
     <Content Include="Content\Images\global\footer-Logo.png" />
+    <Content Include="Content\Images\global\instagram.png" />
     <Content Include="Content\Images\global\nav-logo-sm.png" />
     <Content Include="Content\Images\global\nav-logo.png" />
     <Content Include="Content\Images\home\donate-icon.png" />
     <Content Include="Content\Images\home\get-involved-icon.png" />
+    <Content Include="Content\Images\home\help-home.png" />
     <Content Include="Content\Images\home\home-about-img.png" />
     <Content Include="Content\Images\home\home-hero.png" />
+    <Content Include="Content\Images\home\homework-home.png" />
+    <Content Include="Content\Images\home\ms-card.png" />
+    <Content Include="Content\Images\home\my-school.png" />
+    <Content Include="Content\Images\home\orange-curve.svg" />
+    <Content Include="Content\Images\home\outreach-home.png" />
     <Content Include="Content\Images\home\programmes-icon.png" />
+    <Content Include="Content\Images\home\sp-aa.png" />
+    <Content Include="Content\Images\home\sp-em.png" />
+    <Content Include="Content\Images\home\sp-ms.png" />
+    <Content Include="Content\Images\home\sp-rsa.png" />
+    <Content Include="Content\Images\home\youth.png" />
     <Content Include="Content\Images\Programmes\Christmas Carols at Emmanuel.png" />
     <Content Include="Content\Images\Programmes\gallery.png" />
     <Content Include="Content\Images\Programmes\image 20.png" />
@@ -174,6 +209,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
