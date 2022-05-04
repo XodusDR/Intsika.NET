@@ -20,22 +20,10 @@ namespace Intsika.NET.Controllers
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
        
 
-        public ActionResult Donate()
-        {
-            return View("Donate");
-        }
+       
 
-        public ActionResult Programmes()
-        {
-            return View("Programmes");
-        }
+       
     }
 }
