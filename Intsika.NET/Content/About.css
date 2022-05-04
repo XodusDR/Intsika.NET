@@ -1,0 +1,6 @@
+﻿.about-hero {
+    background-image: url('/Content/images/about/about-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}

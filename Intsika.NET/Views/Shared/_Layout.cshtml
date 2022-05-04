@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/67d7a24e0d.js" crossorigin="anonymous"></script>
     <link href="/Content/home.css" rel="stylesheet">
+    <link href="/Content/about.css" rel="stylesheet">
     <link href="/Content/Contact.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #00000000; ">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-bg">
         <a class="navbar-brand d-lg-none" href="#"><img src="~/Content/images/global/nav-logo-sm.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
                 aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +27,7 @@
             <ul class="navbar-nav mx-auto middle">
                 <li class="nav-item">
                     <div class="nav-link d-flex">
-                        <a class="middle mx-2 mt-1" href="#" target="_blank">
+                        <a class="middle mx-2 mt-1" href="/Contact#faqs" target="_blank">
                             <i class="fas fa-question-circle shadowBrown" title="Got Questions"></i>
                         </a> Got Questions?
                     </div>
@@ -85,10 +86,45 @@
         <footer class="mb-0 p-0 bottom-0 secondary borderBrown">
             <div class="container-fluid mt-2">
                 <div class="row">
-                    <div class="col-sm-4 middle">
-                        <img src="~/Content/images/global/footer-Logo.png" class="mx-auto w-75 footerImg img-fluid mb-2" />
+                    <div class="col-sm-3 middle">
+                        <img src="~/Content/images/global/footer-Logo.png" class="mx-auto w-100 px-3 pt-4 footerImg img-fluid mb-2" />
+                        <div class="d-flex justify-content-center py-2">
+                            <a href="https://www.facebook.com/Intsika-Community-Projects-106631737700091" class="w-25" target="_blank">
+                                <img src="~/Content/images/global/facebook.png" class=" px-2 footerImg img-fluid imgLink" />
+                            </a>
+                            <a href="https://www.instagram.com/intsikacommunity/" class="w-25" target="_blank">
+                                <img src="~/Content/images/global/instagram.png" class=" px-2 footerImg img-fluid imgLink" />
+                            </a>
+                            <a href="/Contact" class="w-25">
+                                <img src="~/Content/images/global/email.png" class=" px-2 footerImg img-fluid imgLink" />
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 middle px-0 py-3">
+                        <div class="bgBrown w-100 my-1 py-2 text-white font-weight-bold middle text-center">
+                            <p class="mb-0">
+                                Postal Address:
+                            </p>
+                            <p class="mb-0">
+                                31 Macon Road, Lorraine Gqeberha, 6070
+                            </p>
+                        </div>
+                        <div class="bgBrown w-100 my-1 py-2 text-white font-weight-bold middle text-center">
+                            <p class="mb-0">
+                                Email: intsikacp@gmail.com
+                            </p>
+                        </div>
+                        <div class="bgBrown w-100 my-1 py-2 text-white font-weight-bold middle text-center">
+                            <p class="mb-0">
+                                Contact No (w): 041 379 2950
+                            </p>
+                        </div>
+
+                        <div class="bgBrown w-100 my-1 py-2 text-white font-weight-bold middle text-center">
+                            <p class="mb-0">
+                                Contact No (c): 072 803 6145
+                            </p>
+                        </div>
                     </div>
                     <div class="col-sm-6 px-5 middle">
                         <div class="row pb-2">
@@ -104,12 +140,12 @@
                                             <input type="text" class="form-control inputFields" placeholder="Last name">
                                         </div>
                                     </div>
-                                    <div class="form-row px-2">
+                                    <div class="form-row px-2 pt-2">
                                         <div class="col p-2">
                                             <input type="email" class="form-control inputFields" placeholder="Email">
                                         </div>
                                         <div class="col p-2">
-                                            <button type="submit" class="btn btnMain w-100">Submit</button>
+                                            <button type="submit" class="btn btnMain w-100">Subscribe</button>
                                         </div>
                                     </div>
                                 </form>
@@ -118,11 +154,11 @@
                                 <div class="borderBrown footerSiteMap footerSections ">
                                     <h3 class="heading text-uppercase w-100 text-center fontBlack brown pt-3">site map</h3>
                                     <div class="w-100 middle fontBlack brown">
-                                        <p><a class="sub-heading" href="/Home">Home</a></p>
-                                        <p><a class="sub-heading" href="/About">About</a></p>
-                                        <p><a class="sub-heading" href="/Donate">Donate</a></p>
-                                        <p><a class="sub-heading" href="/Programmes">Programmes</a></p>
-                                        <p><a class="sub-heading" href="/Contact">Contact</a></p>
+                                        <p><a class="sub-heading brownLink" href="/Home">Home</a></p>
+                                        <p><a class="sub-heading brownLink" href="/About">About</a></p>
+                                        <p><a class="sub-heading brownLink" href="/Donate">Donate</a></p>
+                                        <p><a class="sub-heading brownLink" href="/Programmes">Programmes</a></p>
+                                        <p><a class="sub-heading brownLink" href="/Contact">Contact</a></p>
                                     </div>
                                 </div>
 
