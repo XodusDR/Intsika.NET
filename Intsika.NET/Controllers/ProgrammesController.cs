@@ -9,9 +9,9 @@ namespace Intsika.NET.Controllers
     public class ProgrammesController : Controller
     {
         // GET: Programmes
-        public ActionResult Programmes()
+        public ActionResult Index()
         {
-            return View("Programmes");
+            return View();
         }
     }
 }
