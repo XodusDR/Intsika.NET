@@ -35,6 +35,18 @@ a {
         transform: scale(1.1);
     }
 
+.imgGrow {
+    cursor: pointer;
+    transition: transform .5s ease-in-out .05s;
+    opacity: 0.5;
+}
+
+    .imgGrow:hover {
+        transform: scale(1.25);
+        opacity: 1;
+        z-index: 5;
+    }
+
 .brownLink {
     color: #653910 !important;
 }
@@ -43,9 +55,24 @@ a {
         color: #381B00 !important;
     }
 
+/*===========================Responsive Padding============================*/
+.pt-galleries {
+    padding-top: 4rem !important;
+}
+
+/*====================Small Phones==================*/
+@media screen and (max-width: 411px) {
+    .pt-galleries {
+        padding-top: 0rem !important;
+    }
+}
 /*==================================Widths============================*/
 .w-5 {
     width: 5% !important;
+}
+
+.w-80 {
+    width: 80% !important;
 }
 
 /*==================================Scroll Bar============================*/
@@ -174,6 +201,17 @@ a {
 }
 
 
+/*========================================Clip Content================================= */
+.clipContent {
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.clipContent-90vh {
+    height: 90vh;
+    overflow-y: scroll;
+}
+
 /*========================================Text================================= */
 .line-orange {
     border-top: 5px solid #FA7921;
@@ -208,10 +246,7 @@ a {
     border-radius: 60%/60px 60px 0 0;
 }
 
-.clipText {
-    height: 60vh;
-    overflow-y: scroll;
-}
+
 
 .fontBlack {
     font-weight: 900;

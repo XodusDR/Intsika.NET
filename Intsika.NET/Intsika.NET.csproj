@@ -177,10 +177,26 @@
     <Content Include="Content\Images\home\sp-ms.png" />
     <Content Include="Content\Images\home\sp-rsa.png" />
     <Content Include="Content\Images\home\youth.png" />
-    <Content Include="Content\Images\Programmes\Christmas Carols at Emmanuel.png" />
-    <Content Include="Content\Images\Programmes\gallery.png" />
+    <Content Include="Content\Images\Programmes\carols.png" />
+    <Content Include="Content\Images\Programmes\gal1.png" />
+    <Content Include="Content\Images\Programmes\gal10.png" />
+    <Content Include="Content\Images\Programmes\gal11.png" />
+    <Content Include="Content\Images\Programmes\gal12.png" />
+    <Content Include="Content\Images\Programmes\gal13.png" />
+    <Content Include="Content\Images\Programmes\gal14.png" />
+    <Content Include="Content\Images\Programmes\gal15.png" />
+    <Content Include="Content\Images\Programmes\gal16.png" />
+    <Content Include="Content\Images\Programmes\gal2.png" />
+    <Content Include="Content\Images\Programmes\gal3.png" />
+    <Content Include="Content\Images\Programmes\gal4.png" />
+    <Content Include="Content\Images\Programmes\gal5.png" />
+    <Content Include="Content\Images\Programmes\gal6.png" />
+    <Content Include="Content\Images\Programmes\gal7.png" />
+    <Content Include="Content\Images\Programmes\gal8.png" />
+    <Content Include="Content\Images\Programmes\gal9.png" />
     <Content Include="Content\Images\Programmes\image 20.png" />
-    <Content Include="Content\Images\Programmes\Vector_UpToDate.png" />
+    <Content Include="Content\Images\Programmes\pro-header-line.svg" />
+    <Content Include="Content\Programmes.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -206,11 +222,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Contact\Contact.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Programmes\Programmes.cshtml" />
-    <Content Include="Views\Donation\Donation.cshtml" />
+    <Content Include="Views\Programmes\Index.cshtml" />
+    <Content Include="Views\Donation\Index.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -9,11 +9,9 @@ namespace Intsika.NET.Controllers
     public class ContactController : Controller
     {
         // GET: Contact
-        public ActionResult Contact()
+        public ActionResult Index()
         {
-            ViewBag.Message = "Your contact page.";
-
-            return View("Contact");
+            return View();
         }
     }
 }

@@ -9,9 +9,9 @@ namespace Intsika.NET.Controllers
     public class DonationController : Controller
     {
         // GET: Donation
-        public ActionResult Donation()
+        public ActionResult Index()
         {
-            return View("Donation");
+            return View();
         }
     }
 }
