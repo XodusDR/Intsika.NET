@@ -132,7 +132,15 @@
    font-weight: 400; 
    font-size: 27px; 
    text-align: Center;
+   
  
+}
+
+.mainFont2 {
+    Font: Noto Sans JP;
+    font-weight: 800;
+    font-size: 27px;
+    text-align: Center;
 }
 
 .setCentered2 {
