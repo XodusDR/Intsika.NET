@@ -222,10 +222,10 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Contact\Contact.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Programmes\Index.cshtml" />
-    <Content Include="Views\Donation\Donation.cshtml" />
+    <Content Include="Views\Donation\Index.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
