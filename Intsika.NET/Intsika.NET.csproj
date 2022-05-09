@@ -122,9 +122,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\About.css" />
     <Content Include="Content\Contact.css" />
-    <Content Include="Content\Home.css" />
     <Content Include="Content\Images\about\about-hero.png" />
     <Content Include="Content\Images\about\about-section.png" />
     <Content Include="Content\Images\about\bm-1.png" />
@@ -144,17 +142,18 @@
     <Content Include="Content\Images\about\v-int.png" />
     <Content Include="Content\Images\about\vision.png" />
     <Content Include="Content\Images\Contact\contact.png" />
-    <Content Include="Content\Images\Contact\Friday Kids Outreach 1.png" />
-    <Content Include="Content\Images\Contact\Group27.png" />
+    <Content Include="Content\Images\Contact\outreach-img.png" />
     <Content Include="Content\Images\Contact\op hours.png" />
+    <Content Include="Content\Images\Contact\q-icon.png" />
     <Content Include="Content\Images\Contact\site.png" />
+    <Content Include="Content\Images\Contact\teal-line.svg" />
     <Content Include="Content\Images\Contact\Vector36.png" />
-    <Content Include="Content\Images\Donation\Distributing masks and sanitising at our Friday Kids Outreach 1.png" />
+    <Content Include="Content\Images\Donation\hero-img.png" />
     <Content Include="Content\Images\Donation\Ellipse18.png" />
     <Content Include="Content\Images\Donation\Group61.png" />
     <Content Include="Content\Images\Donation\Group62.png" />
     <Content Include="Content\Images\Donation\image 17.png" />
-    <Content Include="Content\Images\Donation\Vector27.png" />
+    <Content Include="Content\Images\Donation\orange-sm-line.svg" />
     <Content Include="Content\Images\global\email.png" />
     <Content Include="Content\Images\global\facebook.png" />
     <Content Include="Content\Images\global\footer-Logo.png" />
@@ -196,7 +195,6 @@
     <Content Include="Content\Images\Programmes\gal9.png" />
     <Content Include="Content\Images\Programmes\image 20.png" />
     <Content Include="Content\Images\Programmes\pro-header-line.svg" />
-    <Content Include="Content\Programmes.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
