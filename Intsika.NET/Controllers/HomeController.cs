@@ -12,12 +12,7 @@ namespace Intsika.NET.Controllers
         {
             return View();
         }
-        //public ActionResult About()
-        //{
-        //    ViewBag.Message = "Intsika website";
-
-        //    return View();
-        //}
+       
 
     }
 }
