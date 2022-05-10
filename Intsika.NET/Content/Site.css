@@ -55,6 +55,43 @@ a {
         color: #381B00 !important;
     }
 
+/*===========================Pages Heros============================*/
+.home-hero {
+    background-image: url('/Content/images/home/home-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.about-hero {
+    background-image: url('/Content/images/about/about-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.programmes-hero {
+    background-image: url('/Content/images/Programmes/carols.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.donate-hero {
+    background-image: url('/Content/images/Donation/hero-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.contact-hero {
+    background-image: url('/Content/images/Contact/outreach-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
 /*===========================Responsive Padding============================*/
 .pt-galleries {
     padding-top: 4rem !important;
@@ -75,10 +112,24 @@ a {
     width: 80% !important;
 }
 
+.w-90 {
+    width: 90% !important;
+}
+
+.w-50-sm {
+    width: 50% !important;
+}
+
+@media screen and (max-width: 820px) {
+    .w-50-sm {
+        width: 100% !important;
+        padding: 0 0.5rem !important;
+    }
+}
 /*==================================Scroll Bar============================*/
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
 }
 
 /* Track */
@@ -102,6 +153,14 @@ a {
     border: 5px solid #653910;
 }
 
+.borderBrown-sm {
+    border: 1px solid #653910;
+}
+
+.borderDarkBrown {
+    border: 5px solid #1E0F00;
+}
+
 .borderOrange {
     border: 5px solid #FA7921;
 }
@@ -118,8 +177,16 @@ a {
     background: #00332E !important;
 }
 
+.bgTeal {
+    background: #00CBB5 !important;
+}
+
 .bgTealSt {
     background: #046865 !important;
+}
+
+.bgTealSt-10percent {
+    background: #0468651a !important;
 }
 
 .bgDarkBrown {
@@ -128,6 +195,10 @@ a {
 
 .bgBrown {
     background: #653910 !important;
+}
+
+.bgOrange {
+    background: #FA7921 !important;
 }
 
 
@@ -473,4 +544,12 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    text-align: right;
 }
