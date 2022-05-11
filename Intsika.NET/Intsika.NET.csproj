@@ -158,11 +158,13 @@
     <Content Include="Content\Images\Contact\site.png" />
     <Content Include="Content\Images\Contact\teal-line.svg" />
     <Content Include="Content\Images\Contact\Vector36.png" />
+    <Content Include="Content\Images\Donation\Group 104.png" />
     <Content Include="Content\Images\Donation\hero-img.png" />
     <Content Include="Content\Images\Donation\Ellipse18.png" />
     <Content Include="Content\Images\Donation\Group61.png" />
     <Content Include="Content\Images\Donation\Group62.png" />
     <Content Include="Content\Images\Donation\image 17.png" />
+    <Content Include="Content\Images\Donation\MySchool_Store_Card 1.png" />
     <Content Include="Content\Images\Donation\orange-sm-line.svg" />
     <Content Include="Content\Images\global\email.png" />
     <Content Include="Content\Images\global\facebook.png" />
