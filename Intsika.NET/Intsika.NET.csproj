@@ -132,9 +132,13 @@
     <Compile Include="Services\IEmailSender.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="android-chrome-192x192.png" />
+    <Content Include="android-chrome-512x512.png" />
+    <Content Include="apple-touch-icon.png" />
     <Content Include="Content\Contact.css" />
     <Content Include="Content\Images\about\about-hero.png" />
     <Content Include="Content\Images\about\about-section.png" />
+    <Content Include="Content\Images\about\andre.png" />
     <Content Include="Content\Images\about\bm-1.png" />
     <Content Include="Content\Images\about\bm-2.png" />
     <Content Include="Content\Images\about\bm-3.png" />
@@ -145,7 +149,10 @@
     <Content Include="Content\Images\about\bm-8.png" />
     <Content Include="Content\Images\about\bm-9.png" />
     <Content Include="Content\Images\about\header-line.svg" />
+    <Content Include="Content\Images\about\j.png" />
+    <Content Include="Content\Images\about\lisaF.png" />
     <Content Include="Content\Images\about\mission.png" />
+    <Content Include="Content\Images\about\sv.png" />
     <Content Include="Content\Images\about\v-acc.png" />
     <Content Include="Content\Images\about\v-cross.png" />
     <Content Include="Content\Images\about\v-ethical.png" />
@@ -158,13 +165,12 @@
     <Content Include="Content\Images\Contact\site.png" />
     <Content Include="Content\Images\Contact\teal-line.svg" />
     <Content Include="Content\Images\Contact\Vector36.png" />
-    <Content Include="Content\Images\Donation\Group 104.png" />
+    <Content Include="Content\Images\Donation\d.png" />
     <Content Include="Content\Images\Donation\hero-img.png" />
-    <Content Include="Content\Images\Donation\Ellipse18.png" />
-    <Content Include="Content\Images\Donation\Group61.png" />
-    <Content Include="Content\Images\Donation\Group62.png" />
-    <Content Include="Content\Images\Donation\image 17.png" />
-    <Content Include="Content\Images\Donation\MySchool_Store_Card 1.png" />
+    <Content Include="Content\Images\Donation\c.png" />
+    <Content Include="Content\Images\Donation\a.png" />
+    <Content Include="Content\Images\Donation\b.png" />
+    <Content Include="Content\Images\Donation\needs.png" />
     <Content Include="Content\Images\Donation\orange-sm-line.svg" />
     <Content Include="Content\Images\global\email.png" />
     <Content Include="Content\Images\global\facebook.png" />
@@ -207,6 +213,8 @@
     <Content Include="Content\Images\Programmes\gal9.png" />
     <Content Include="Content\Images\Programmes\image 20.png" />
     <Content Include="Content\Images\Programmes\pro-header-line.svg" />
+    <Content Include="favicon-16x16.png" />
+    <Content Include="favicon-32x32.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -237,6 +245,7 @@
     <Content Include="Views\Programmes\Index.cshtml" />
     <Content Include="Views\Donation\Index.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
+    <Content Include="site.webmanifest" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
