@@ -43,7 +43,7 @@ namespace Intsika.NET.Services
                 From = new EmailAddress("info@intsikacommunityprojects.org.za", "Confirmation"),
                 Subject = "Confirmation Message Get In Touch",
                 PlainTextContent = "<p>Hi " + name + "," + "</p> <p>Thank you for contacting us! We will get in contact with you shortly.</p><p>Regards</p><p>Hope Academy</p>",
-                HtmlContent = "<p>Hi " + name + "," + "</p><p>Thank you for contacting us! We will get in contact with you shortly.</p><p>Regards</p><p>Insika</p>"
+                HtmlContent = "<p>Hi " + name + "," + "</p><p>Thank you for contacting us! We will get in contact with you shortly.</p><p>Regards</p><p>Intsika</p>"
             };
             msg2.AddTo(new EmailAddress(email));
             client.SendEmailAsync(msg2);
